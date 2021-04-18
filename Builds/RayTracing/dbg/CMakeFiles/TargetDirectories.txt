@@ -1,0 +1,3 @@
+/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/dbg/CMakeFiles/rebuild_cache.dir
+/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/dbg/CMakeFiles/edit_cache.dir
+/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/dbg/CMakeFiles/RayTracing-dbg.exe.dir

@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o"
+  "CMakeFiles/RayTracing-dbg.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o"
+  "RayTracing-dbg.exe"
+  "RayTracing-dbg.exe.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/RayTracing-dbg.exe.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../Common/Sources/glad/glad.h
+KHR/khrplatform.h
+-
+
+/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/glad.h
+/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad/glad.h
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+
