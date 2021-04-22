@@ -66,7 +66,7 @@ struct RayTracingStack
   Ray rays[STACK_SIZE];
   int top;
 };
-
+/*_________PRIMITIVES AND THEIR MATERIALS_________*/
 RayTracingStack rayTracingStack;
 const int SphereN = 3;
 Sphere spheres[SphereN] = Sphere[SphereN](
@@ -86,6 +86,7 @@ Material dodecMat = Material(0.1, 0, 1.1, vec3(1,1.,1.));
 Cylinder base = Cylinder(vec3(0, -1.03, 0), 0.9, 0.1);
 Material baseMat = Material(1, 0, 0, vec3(0.10, 0.49, 0.39));
 
+/*______________________LIGHT______________________*/
 #define AMBIENT_INTENSIVITY 0.1
 const int LightN = 3;
 Light Lights[LightN] = Light[LightN](
@@ -93,6 +94,13 @@ Light(spheres[0].pos, spheresMat[0].color, 4.f),
 Light(spheres[1].pos, spheresMat[1].color, 1.0f),
 Light(spheres[2].pos, spheresMat[2].color, 1.0f));
 
+bool isOccluded(vec3 pos, vec3 light_pos)
+{
+/*  vec3 dir = target - pos;
+  dist = length(dir);
+  dir /= dist; *//*normalize*/
+  return false;
+}
 
 vec3 computeLight(vec3 pos, vec3 color, vec3 normal) 
 {
@@ -101,7 +109,7 @@ vec3 computeLight(vec3 pos, vec3 color, vec3 normal)
   {
     vec3 toLight = Lights[i].pos - pos;
     float distSq = dot(toLight,toLight);
-    float att = Lights[i].intensity/distSq;
+    float att = isOccluded(pos, Lights[i].pos) ? 0.0 : Lights[i].intensity/distSq;
     light += max(.0, dot(normal, normalize(toLight))) * att * Lights[i].color;
   }
 
@@ -390,7 +398,7 @@ void create_rays(in Ray ray, in Collision collision, Material material, inout ve
   {
     if (foolInsideReflaction)
     {
-      color += vec4(material.color, 1) * (1 - transparent) * (1 - ray.transparent);
+      color += vec4(computeLight(ray.pos, material.color * (1 - transparent) * (1 - ray.transparent), normal), 1);
     }
     else
     {
