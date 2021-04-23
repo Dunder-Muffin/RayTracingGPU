@@ -162,7 +162,7 @@ vec3 computeLight(vec3 pos, vec3 color, vec3 normal)
   {
     vec3 toLight = Lights[i].pos - pos;
     float distSq = dot(toLight,toLight);
-    float att = isOccluded(pos, Lights[i].pos) ? 0.0 : Lights[i].intensity/distSq;
+    float att = isOccluded(pos, Lights[i].pos) ? 0.0 : Lights[i].intensity/distSq;    /*  TODO :+- 1px for soft shadows*/
     light += max(.0, dot(normal, normalize(toLight))) * att * Lights[i].color;
   }
 
@@ -186,7 +186,7 @@ Ray get_ray_from_stack()
 Ray get_ray(vec2 uv)
 {
     Ray ray;
-    vec4 pos = ProjViewInv * vec4(fragUV, 0, 1.0);
+    vec4 pos = ProjViewInv * vec4(fragUV, 0, 1.0);  /*  TODO :+- 1px for smoothing  and optionally motion blur*/
     ray.dir = normalize(pos.xyz / pos.w - CameraPos);
     ray.pos = CameraPos;
     ray.transparent = 0;
