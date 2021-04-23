@@ -9,7 +9,7 @@ uniform samplerCube skybox;
 uniform sampler3D perlin3D; 
 
 #define FAR_INF 1e9
-#define EPS 1e-4
+#define EPS 1e-6
 #define RAY_DEPTH 7
 #define STACK_SIZE 130 //2^RAY_DEPTH
 //math phi
@@ -66,8 +66,10 @@ struct RayTracingStack
   Ray rays[STACK_SIZE];
   int top;
 };
+
 /*_________PRIMITIVES AND THEIR MATERIALS_________*/
 RayTracingStack rayTracingStack;
+
 const int SphereN = 3;
 Sphere spheres[SphereN] = Sphere[SphereN](
   //Sphere(vec3(0,0,0), 1.5),
@@ -87,19 +89,70 @@ Cylinder base = Cylinder(vec3(0, -1.03, 0), 0.9, 0.1);
 Material baseMat = Material(1, 0, 0, vec3(0.10, 0.49, 0.39));
 
 /*______________________LIGHT______________________*/
-#define AMBIENT_INTENSIVITY 0.1
-const int LightN = 3;
+#define AMBIENT_INTENSIVITY 0.2
+const int LightN = SphereN;
 Light Lights[LightN] = Light[LightN](
 Light(spheres[0].pos, spheresMat[0].color, 4.f),
 Light(spheres[1].pos, spheresMat[1].color, 1.0f),
 Light(spheres[2].pos, spheresMat[2].color, 1.0f));
 
-bool isOccluded(vec3 pos, vec3 light_pos)
+void raycast_sphere(inout Collision collision, in Sphere sphere, in Ray ray);
+void raycast_dodec(inout Collision collision, in RegularDodec dodec, in Ray ray);
+void raycast_cylinder(inout Collision collision, in Cylinder cyl, in Ray ray);
+bool isOccluded(vec3 pos, vec3 light_pos) /*shadows*/
 {
-/*  vec3 dir = target - pos;
-  dist = length(dir);
-  dir /= dist; *//*normalize*/
-  return false;
+    Ray ray;
+    ray.dir = light_pos - pos;
+    ray.pos = pos;
+    ray.transparent = 0;
+    ray.depth = 0;
+    ray.isInsideMaterial = false;
+  Collision bestCollision, collision;
+
+
+  bestCollision.hit = false;
+  bestCollision.dist = FAR_INF;
+                    /*  TODO : add ray stack here*/
+    /*shadow rays*/
+/*---------------------------       TRACE SPHERE       ---------------------------*/
+  for (int i = 0; i < SphereN; i++)
+  {
+    if (light_pos != spheres[i].pos) //light source cannot occlude itself
+    {
+      Collision collision;
+      raycast_sphere(collision, spheres[i], ray);
+      if (collision.hit && collision.dist < bestCollision.dist)
+      {
+        bestCollision = collision;
+      }
+    }
+  }
+  /*---------------------------      TRACE DODEC       ---------------------------*/
+  for (int i = 0; i < 1; i++)
+  {
+    Collision collision;
+    raycast_dodec(collision, dodec, ray); //spheres[i], ray);
+    if (collision.hit && collision.dist < bestCollision.dist)
+    {
+      bestCollision = collision;
+    }
+  }
+/*---------------------------       TRACE CYLINDER       ---------------------------*/
+for (int i = 0; i < 1; i++)
+  {
+    Collision collision;
+    raycast_cylinder(collision, base, ray); //spheres[i], ray);
+    if (collision.hit && collision.dist < bestCollision.dist)
+    {
+      bestCollision = collision;
+    }
+  }
+
+
+  if (bestCollision.hit)
+  return true;
+  else
+    return false;
 }
 
 vec3 computeLight(vec3 pos, vec3 color, vec3 normal) 
@@ -177,14 +230,14 @@ void raycast_dodec(inout Collision collision, in RegularDodec dodec, in Ray ray)
   {
     k = dScene(cam+dir*t- dodec.pos);
     t += k;
-    if (k < .001 || k > 10.)
+    if (k < .0000001 || k > 10.)
     {
       break;
     }
   }
-
+  t/=1+EPS;
     vec3 h = dir*t+cam - dodec.pos;
-    vec2 o = vec2(.001, .0);
+    vec2 o = vec2(.001, 0.);
     vec3 n = normalize(vec3(
     dScene(h+o.xyy)-dScene(h-o.xyy),
     dScene(h+o.yxy)-dScene(h-o.yxy),
@@ -219,12 +272,12 @@ void raycast_sphere(inout Collision collision, in Sphere sphere, in Ray ray)
   D = sqrt(D);
   float t = 0;
   float t1 = (-D - b) / a;
-  if (t1 >= 0)
+  if (t1 >= EPS)
     t = t1;
   else
   {
     float t2 = (D - b) / a;
-    if (t2 >= 0)
+    if (t2 >= EPS)
       t = t2;
     else
     {
@@ -274,12 +327,12 @@ void raycast_cylinder(inout Collision collision, in Cylinder cyl, in Ray ray)
   }
   D = sqrt(D);
   float t1 = (-D - b) / a;
-  if (t1 >= 0)
+  if (t1 >= EPS)
     t = t1;
   else
   {
     float t2 = (D - b) / a;
-    if (t2 >= 0)
+    if (t2 >= EPS)
       t = t2;
     else
     {
@@ -334,7 +387,7 @@ for (int i = 0; i < 1; i++)
   {
     Collision collision;
     raycast_cylinder(collision, base, ray); //spheres[i], ray);
-    if (collision.hit && collision.dist < bestCollision.dist)
+    if (collision.hit && collision.dist <= bestCollision.dist)
     {
       bestCollision = collision;
       collisionMat = baseMat;
