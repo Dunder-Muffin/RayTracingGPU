@@ -1,4 +1,5 @@
 ![Ray tracing shot](Screenshots/screen_shoot.png)
+  Dodecahedron with a fireball inside 
 ## Install depedencies:
 
 `sudo apt-get install cmake`
