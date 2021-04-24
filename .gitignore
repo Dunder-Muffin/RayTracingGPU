@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+#compiled shaders
+*.spv
+
+#cmake
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
