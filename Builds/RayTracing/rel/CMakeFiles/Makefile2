@@ -63,10 +63,10 @@ RM = /home/nks/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds
+CMAKE_SOURCE_DIR = /home/nks/progs.git/RayTracingGPU/Builds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel
+CMAKE_BINARY_DIR = /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/RayTracing-rel.exe.dir/clean
 CMakeFiles/RayTracing-rel.exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target RayTracing-rel.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target RayTracing-rel.exe"
 .PHONY : CMakeFiles/RayTracing-rel.exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RayTracing-rel.exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RayTracing-rel.exe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles 0
 .PHONY : CMakeFiles/RayTracing-rel.exe.dir/rule
 
 # Convenience name for target.

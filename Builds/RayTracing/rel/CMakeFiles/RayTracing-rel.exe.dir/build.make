@@ -62,10 +62,10 @@ RM = /home/nks/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds
+CMAKE_SOURCE_DIR = /home/nks/progs.git/RayTracingGPU/Builds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel
+CMAKE_BINARY_DIR = /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RayTracing-rel.exe.dir/depend.make
@@ -76,495 +76,495 @@ include CMakeFiles/RayTracing-rel.exe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RayTracing-rel.exe.dir/flags.make
 
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.s
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o -c /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.i
-
-CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.s
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o: /home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o -c /home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o: /home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o -c /home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.s
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o: CMakeFiles/RayTracing-rel.exe.dir/flags.make
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o: /home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o -c /home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c > CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.i
+
+CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c -o CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.s
 
 # Object files for target RayTracing-rel.exe
 RayTracing__rel_exe_OBJECTS = \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o" \
-"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o"
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o" \
+"CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o"
 
 # External object files for target RayTracing-rel.exe
 RayTracing__rel_exe_EXTERNAL_OBJECTS =
 
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o
-RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o
+RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o
 RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/build.make
 RayTracing-rel.exe: CMakeFiles/RayTracing-rel.exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable RayTracing-rel.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable RayTracing-rel.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RayTracing-rel.exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -577,6 +577,6 @@ CMakeFiles/RayTracing-rel.exe.dir/clean:
 .PHONY : CMakeFiles/RayTracing-rel.exe.dir/clean
 
 CMakeFiles/RayTracing-rel.exe.dir/depend:
-	cd /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles/RayTracing-rel.exe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nks/progs.git/RayTracingGPU/Builds /home/nks/progs.git/RayTracingGPU/Builds /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles/RayTracing-rel.exe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RayTracing-rel.exe.dir/depend
 

@@ -73,7 +73,7 @@ RayTracingStack rayTracingStack;
 const int SphereN = 3;
 Sphere spheres[SphereN] = Sphere[SphereN](
   //Sphere(vec3(0,0,0), 1.5),
-  Sphere(vec3(0,.2,0), 0.6),
+  Sphere(vec3(0,.0,0), 0.8),
   Sphere(vec3(1.4, 1.2,-0.3), 0.25),
   Sphere(vec3(1.2,-0.1,-0.9), 0.2));
 Material spheresMat[SphereN] = Material[SphereN](
@@ -89,7 +89,7 @@ Cylinder base = Cylinder(vec3(0, -1.03, 0), 0.9, 0.1);
 Material baseMat = Material(1, 0, 0, vec3(0.10, 0.49, 0.39));
 
 /*______________________LIGHT______________________*/
-#define AMBIENT_INTENSIVITY 0.2
+#define AMBIENT_INTENSIVITY 0.1
 const int LightN = SphereN;
 Light Lights[LightN] = Light[LightN](
 Light(spheres[0].pos, spheresMat[0].color, 4.f),
@@ -220,7 +220,6 @@ float dScene(vec3 p)
 
 void raycast_dodec(inout Collision collision, in RegularDodec dodec, in Ray ray)
 {
-
   vec3 cam = ray.pos;
   vec3 dir = ray.dir;
   float t;
@@ -243,6 +242,11 @@ void raycast_dodec(inout Collision collision, in RegularDodec dodec, in Ray ray)
     dScene(h+o.yxy)-dScene(h-o.yxy),
     dScene(h+o.yyx)-dScene(h-o.yyx)
   ));
+    if(dot(h,h)<.5)//////////////////////////////////////////NKS/////////////////////////////////////////////////////////////
+    {
+      collision.hit = false;
+      return;      
+    }
   if (k > 10&& !ray.isInsideMaterial)// k>10 condition does not gives info about inner sides of dodec
   {
     collision.hit = false;
@@ -285,6 +289,7 @@ void raycast_sphere(inout Collision collision, in Sphere sphere, in Ray ray)
       return;
     }
   }
+  t/=1+EPS;
   collision.hit = true;
   collision.dist = t;
   collision.pos = ray.pos + ray.dir * t;
@@ -296,15 +301,14 @@ void raycast_cylinder(inout Collision collision, in Cylinder cyl, in Ray ray)
   float t = FAR_INF;
   float tp1 = (cyl.pos.y + cyl.height - ray.pos.y)/ray.dir.y;
   float tp2 = (cyl.pos.y - ray.pos.y)/ray.dir.y;  
-  if (tp2>0) 
+  if (tp2>EPS) 
   {
     if (tp1<tp2)
       t=tp1;
     else 
       t=tp2;
-
     vec3 worldPos = t * ray.dir + ray.pos -cyl.pos;
-    if (dot(worldPos.xz, worldPos.xz) <= cyl.radius*cyl.radius )
+    if (dot(worldPos.xz, worldPos.xz) <= cyl.radius*cyl.radius)
     {
       collision.hit = true;
       collision.dist = t;
@@ -340,6 +344,7 @@ void raycast_cylinder(inout Collision collision, in Cylinder cyl, in Ray ray)
       return;
     }
   }
+    t/=1+EPS;
   collision.pos = ray.pos + ray.dir * t;
   if (collision.pos.y>cyl.pos.y +cyl.height || collision.pos.y<cyl.pos.y) 
   {
@@ -387,7 +392,7 @@ for (int i = 0; i < 1; i++)
   {
     Collision collision;
     raycast_cylinder(collision, base, ray); //spheres[i], ray);
-    if (collision.hit && collision.dist <= bestCollision.dist)
+    if (collision.hit && collision.dist < bestCollision.dist)
     {
       bestCollision = collision;
       collisionMat = baseMat;
@@ -404,8 +409,8 @@ void create_rays(in Ray ray, in Collision collision, Material material, inout ve
   bool outedRay = dot(ray.dir, normal) > 0;
   float refractionFactor = outedRay ? 1 / material.refractionFactor : material.refractionFactor;
 
-  float noise = textureLod(perlin3D, ray.pos.xzy * 3, 0).x;
-
+  //float noise = textureLod(perlin3D, ray.pos.xzy * 3, 0).x;
+  float noise = textureLod(perlin3D, ray.pos.xzy * sin(Time/5), 0).x;
   normal.xyz += (vec3(noise) - vec3(0.5))*0.1;//may vary noise parameters to get better image
   normal = normalize(normal);
   if (material.color ==vec3(1,0.2,0.1))///added special case when we want noisy pattern
@@ -457,7 +462,7 @@ void create_rays(in Ray ray, in Collision collision, Material material, inout ve
     {
       Ray refractedRay = ray;
       refractedRay.dir = refracted;
-      refractedRay.pos += refracted;//*EPS;
+      refractedRay.pos += refracted*EPS;//////////////////////////////////
       refractedRay.transparent += t * (1 - ray.transparent);
       refractedRay.isInsideMaterial = isInsideMaterial;
      pop_ray_to_stack(refractedRay);

@@ -67,10 +67,10 @@ RM = /home/nks/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds
+CMAKE_SOURCE_DIR = /home/nks/progs.git/RayTracingGPU/Builds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel
+CMAKE_BINARY_DIR = /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,869 +142,869 @@ RayTracing-rel.exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/build
 .PHONY : RayTracing-rel.exe/fast
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.o
-
-# target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.o
-
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.i
-
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.i
-
-# target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.i
-
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.s
-
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.s
-
-# target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp.s
-
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o
-
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.o: home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.i: home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.s: home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.o: home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.i: home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.s: home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/common.o: home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/common.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/common.i: home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/common.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/common.s: home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/common.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.o: home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.i: home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.s: home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.o: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.i: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.s: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.o: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.i: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.s: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.o: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.i: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.s: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.o: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.i: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.s: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.o: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.i: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.s: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.o: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.i: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.s: home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.o: home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.i: home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.s: home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.o: home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.o
+home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.i: home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.i
+home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.s: home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp.s
+home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp.s
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.o: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.o: home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.o
 
 # target to build an object file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.o
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.i: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.i: home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.i
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.i
 
 # target to preprocess a source file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.i
 
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.s: home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.s: home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.s
 
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.s
 
 # target to generate assembly for a file
-home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s
-.PHONY : home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp.s
+
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.o: home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o
+
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.o
+
+# target to build an object file
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.o
+
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.i: home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i
+
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.i
+
+# target to preprocess a source file
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.i
+
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.s: home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s
+
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.s
+
+# target to generate assembly for a file
+home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing-rel.exe.dir/build.make CMakeFiles/RayTracing-rel.exe.dir/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s
+.PHONY : home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp.s
 
 # Help Target
 help:
@@ -1015,102 +1015,102 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RayTracing-rel.exe"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.s"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.o"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.i"
-	@echo "... home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/common.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/common.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/common.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.s"
+	@echo "... home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.o"
+	@echo "... home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.i"
+	@echo "... home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.s"
 .PHONY : help
 
 

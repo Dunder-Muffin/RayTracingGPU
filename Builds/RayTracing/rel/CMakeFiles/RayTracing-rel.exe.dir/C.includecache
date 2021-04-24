@@ -10,7 +10,7 @@
 KHR/khrplatform.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.c
+/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.c
 stdio.h
 -
 stdlib.h
@@ -18,7 +18,7 @@ stdlib.h
 string.h
 -
 glad/glad.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad/glad.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad/glad.h
 windows.h
 -
 winapifamily.h

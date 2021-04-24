@@ -302,99 +302,99 @@ math.h
 assert.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.cpp
 application.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.h
 Shader/shader_factory.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/Shader/shader_factory.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/Shader/shader_factory.h
 imgui/imgui_impl_opengl3.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/imgui/imgui_impl_opengl3.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/imgui/imgui_impl_opengl3.h
 imgui/imgui_impl_sdl.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/imgui/imgui_impl_sdl.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/imgui/imgui_impl_sdl.h
 config.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/application.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/application.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/common.h
 Scene/scene.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/Scene/scene.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/Scene/scene.h
 context.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.h
 Event/input.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/Event/input.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/Event/input.h
 Time/time.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/Time/time.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/Time/time.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.cpp
 config.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.h
 map
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/config.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/config.h
 string
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.cpp
 context.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.h
 imgui/imgui_impl_opengl3.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/imgui/imgui_impl_opengl3.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/imgui/imgui_impl_opengl3.h
 imgui/imgui_impl_sdl.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/imgui/imgui_impl_sdl.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/imgui/imgui_impl_sdl.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/context.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/context.h
 SDL2/SDL.h
 -
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Application/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Application/common.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.cpp
 arcball_camera.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.h
 Event/input.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/Event/input.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/Event/input.h
 Time/time.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/Time/time.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/Time/time.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/arcball_camera.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/arcball_camera.h
 camera.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.cpp
 camera.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.h
 vector
 -
 Application/application.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/Application/application.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/Application/application.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/common.h
 math.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/math.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/math.h
 Transform/transform.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/Transform/transform.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/Transform/transform.h
 Event/input.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/Event/input.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/Event/input.h
 Shader/shader.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/Shader/shader.h
 component.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/component.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/component.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/free_camera.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/free_camera.cpp
 Event/input.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/Event/input.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/Event/input.h
 Time/time.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/Time/time.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/Time/time.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/mesh_render.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/mesh_render.cpp
 GameObject/game_object.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Components/MeshRender/GameObject/game_object.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Components/MeshRender/GameObject/game_object.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/event.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/event.h
 list
 -
 algorithm
@@ -402,143 +402,143 @@ algorithm
 memory
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.cpp
 assert.h
 -
 input.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.h
 Time/time.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/Time/time.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/Time/time.h
 math.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/math.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/math.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/input.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/input.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/common.h
 map
 -
 vector
 -
 Event/event.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/Event/event.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/Event/event.h
 event.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Event/event.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Event/event.h
 SDL2/SDL_keyboard.h
 -
 SDL2/SDL_events.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.cpp
 map
 -
 game_object.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/GameObject/game_object.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/GameObject/game_object.h
 vector
 -
 memory
 -
 ../component.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/component.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/component.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.cpp
 direction_light.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/direction_light.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/direction_light.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/common.h
 math.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/math.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/math.h
 Shader/shader.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Light/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Light/Shader/shader.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Mesh/vertex_array_object.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Mesh/vertex_array_object.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Mesh/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Mesh/common.h
 math.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Mesh/math.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Mesh/math.h
 vector
 -
 type_traits
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.cpp
 postfx.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/postfx.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/postfx.h
 component.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/component.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/component.h
 Mesh/vertex_array_object.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/Mesh/vertex_array_object.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/Mesh/vertex_array_object.h
 Shader/shader.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Postfx/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Postfx/Shader/shader.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.cpp
 scene.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.h
 glad/glad.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/glad/glad.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/glad/glad.h
 skybox.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/skybox.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/skybox.h
 Camera/cameras.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/Camera/cameras.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/Camera/cameras.h
 Time/time.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/Time/time.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/Time/time.h
 imgui/imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/imgui/imgui.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/scene.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/scene.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/common.h
 GameObject/game_object.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/GameObject/game_object.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/GameObject/game_object.h
 Light/direction_light.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Scene/Light/direction_light.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Scene/Light/direction_light.h
 vector
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.cpp
 screenshoot.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.h
 Application/application.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/Application/application.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/Application/application.h
 stbi/stb_image_write.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/stbi/stb_image_write.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/stbi/stb_image_write.h
 stbi/stb_image.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/stbi/stb_image.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/stbi/stb_image.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Screenshoot/screenshoot.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Screenshoot/screenshoot.h
 string
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.cpp
 shader.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.h
 map
 -
 iostream
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/common.h
 math.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/math.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/math.h
 vector
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.cpp
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/common.h
 shader_factory.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.h
 shader.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.h
 Application/application.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/Application/application.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/Application/application.h
 fstream
 -
 sstream
@@ -550,117 +550,117 @@ map
 vector
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader_factory.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader_factory.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.cpp
 cube_map_texture.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.h
 stbi/stb_image.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/stbi/stb_image.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/stbi/stb_image.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.h
 texture.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.cpp
 texture.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/common.h
 Shader/shader.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/Shader/shader.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.cpp
 texture2d.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.h
 stbi/stb_image.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/stbi/stb_image.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/stbi/stb_image.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.h
 texture.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.cpp
 texture3d.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.h
 stbi/stb_image.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/stbi/stb_image.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/stbi/stb_image.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.h
 texture.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/textures.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/textures.h
 texture2d.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture2d.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture2d.h
 texture3d.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/texture3d.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/texture3d.h
 cube_map_texture.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/cube_map_texture.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/cube_map_texture.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Time/time.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Time/time.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Time/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Time/common.h
 SDL2/SDL_timer.h
 -
 assert.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.cpp
 transform.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/transform.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/transform.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/common.h
 math.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/math.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/math.h
 Shader/shader.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/Shader/shader.h
 component.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Transform/component.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Transform/component.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/common.cpp
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/common.h
 imgui/imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 imgui/imgui_internal.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_internal.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_internal.h
 Time/time.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Time/time.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Time/time.h
 list
 -
 stdarg.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/common.h
 iostream
 -
 string
 -
 glad/glad.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.h
 memory
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/component.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/component.h
 memory
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/glad/glad.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/glad/glad.h
 KHR/khrplatform.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imconfig.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imconfig.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.cpp
 imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 imgui_internal.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_internal.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_internal.h
 ctype.h
 -
 stdio.h
@@ -676,17 +676,17 @@ windows.h
 TargetConditionals.h
 -
 stb_sprintf.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/stb_sprintf.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/stb_sprintf.h
 Carbon/Carbon.h
 -
 imm.h
 -
 imgui_user.inl
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_user.inl
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_user.inl
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 imconfig.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imconfig.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imconfig.h
 float.h
 -
 stdarg.h
@@ -700,11 +700,11 @@ assert.h
 stdint.h
 -
 imgui_user.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_user.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_user.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_demo.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_demo.cpp
 imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 ctype.h
 -
 limits.h
@@ -720,11 +720,11 @@ stddef.h
 stdint.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_draw.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_draw.cpp
 imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 imgui_internal.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_internal.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_internal.h
 stdio.h
 -
 alloca.h
@@ -734,15 +734,15 @@ malloc.h
 stdlib.h
 -
 imstb_rectpack.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imstb_rectpack.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imstb_rectpack.h
 imstb_truetype.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imstb_truetype.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imstb_truetype.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.cpp
 imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 imgui_impl_opengl3.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.h
 stdio.h
 -
 stddef.h
@@ -772,29 +772,29 @@ glbinding/glbinding.h
 glbinding/gl/gl.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_opengl3.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_opengl3.h
 imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 TargetConditionals.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/TargetConditionals.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/TargetConditionals.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.cpp
 imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 imgui_impl_sdl.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.h
 SDL.h
 -
 SDL_syswm.h
 -
 TargetConditionals.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/TargetConditionals.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/TargetConditionals.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_impl_sdl.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_impl_sdl.h
 imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_internal.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_internal.h
 stdio.h
 -
 stdlib.h
@@ -804,13 +804,13 @@ math.h
 limits.h
 -
 imstb_textedit.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imstb_textedit.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imstb_textedit.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_widgets.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_widgets.cpp
 imgui.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui.h
 imgui_internal.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imgui_internal.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imgui_internal.h
 ctype.h
 -
 stddef.h
@@ -818,25 +818,25 @@ stddef.h
 stdint.h
 -
 imstb_textedit.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imstb_textedit.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imstb_textedit.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imstb_rectpack.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imstb_rectpack.h
 stdlib.h
 -
 assert.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imstb_textedit.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imstb_textedit.h
 string.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/imstb_truetype.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/imstb_truetype.h
 stb_truetype.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/stb_truetype.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/imgui/stb_truetype.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/imgui/stb_truetype.h
 math.h
 -
 math.h
@@ -856,29 +856,29 @@ string.h
 string.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.cpp
 vector
 -
 skybox.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/skybox.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/skybox.h
 common.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/common.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/common.h
 component.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/component.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/component.h
 Shader/shader.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Shader/shader.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Shader/shader.h
 Texture/textures.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Texture/textures.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Texture/textures.h
 Camera/camera.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Camera/camera.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Camera/camera.h
 Mesh/vertex_array_object.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/Mesh/vertex_array_object.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/Mesh/vertex_array_object.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_image.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_image.h
 stb_image.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_image.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_image.h
 stdio.h
 -
 stdlib.h
@@ -908,7 +908,7 @@ intrin.h
 arm_neon.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_image_write.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_image_write.h
 stdlib.h
 -
 stdio.h
@@ -924,45 +924,45 @@ math.h
 assert.h
 -
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_implementation.cpp
+/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_implementation.cpp
 stb_image.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_image.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_image.h
 stb_image_write.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Common/Sources/stbi/stb_image_write.h
+/home/nks/progs.git/RayTracingGPU/Common/Sources/stbi/stb_image_write.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/main.cpp
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/main.cpp
 iostream
 -
 Application/application.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/Application/application.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/Application/application.h
 Application/config.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/Application/config.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/Application/config.h
 ray_tracing_scene.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.cpp
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.cpp
 ray_tracing_scene.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.h
 Camera/cameras.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/Camera/cameras.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/Camera/cameras.h
 Application/application.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/Application/application.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/Application/application.h
 Screenshoot/screenshoot.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/Screenshoot/screenshoot.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/Screenshoot/screenshoot.h
 Camera/camera.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/Camera/camera.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/Camera/camera.h
 skybox.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/skybox.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/skybox.h
 
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/ray_tracing_scene.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/ray_tracing_scene.h
 component.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/component.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/component.h
 GameObject/game_object.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/GameObject/game_object.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/GameObject/game_object.h
 Postfx/postfx.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/Postfx/postfx.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/Postfx/postfx.h
 Texture/textures.h
-/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Projects/RayTracing/Sources/Texture/textures.h
+/home/nks/progs.git/RayTracingGPU/Projects/RayTracing/Sources/Texture/textures.h
 
 /usr/include/SDL2/SDL.h
 SDL_main.h

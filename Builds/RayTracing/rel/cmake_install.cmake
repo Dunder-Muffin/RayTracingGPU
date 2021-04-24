@@ -1,4 +1,4 @@
-# Install script for directory: /home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds
+# Install script for directory: /home/nks/progs.git/RayTracingGPU/Builds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nks/progs.git/etc/3rd_course/Graphics/1st/template/Builds/RayTracing/rel/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nks/progs.git/RayTracingGPU/Builds/RayTracing/rel/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
