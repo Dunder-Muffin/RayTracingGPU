@@ -1,41 +1,46 @@
 # Prerequisites
-*.d
+**/*.d
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+**/*.slo
+**/*.lo
+**/*.o
+**/*.obj
 
 # Precompiled Headers
-*.gch
-*.pch
+**/*.gch
+**/*.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
+**/*.so
+**/*.so.*
+**/*.dylib
+**/*.dll
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+**/*.lai
+**/*.la
+**/*.a
+**/*.lib
 
 # Executables
-*.exe
-*.out
-*.app
+**/*.exe
+**/*.out
+**/*.app
+**/*.elf
 
-#compiled shaders
-*.spv
+# Temp files
+**/.#*
+**/*~
+**/*.tmp
+**/*.swp
+**/*.swo
 
-#cmake
-CMakeFiles
-CMakeCache.txt
-cmake_install.cmake
-Makefile
+# Compiled shaders
+**/*.spv
+
+# cmake
+**/CMakeFiles
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
