@@ -1,7 +1,6 @@
 #include "common.h"
 
-#include "imgui/imgui.h"
-#include "imgui/imgui_internal.h"
+
 #include "Time/time.h"
 #include <list>
 #include <stdarg.h>
@@ -43,10 +42,4 @@ void debug_log(const char *fmt, ...)
   va_start(args, fmt);
   debug_common(fmt, 1, args);
   va_end(args);
-}
-void debug_show()
-{
-  for (const Message &m: q)
-    ImGui::TextColored(m.status ? ImVec4(1,1,1,1) : ImVec4(1,0.1f,0.1f,1) , "%s", m.message.c_str());
-  
 }

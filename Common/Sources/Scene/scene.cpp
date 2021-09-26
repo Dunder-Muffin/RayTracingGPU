@@ -4,7 +4,6 @@
 #include "skybox.h"
 #include "Camera/cameras.h"
 #include "Time/time.h"
-#include "imgui/imgui.h"
 
 
 
@@ -44,24 +43,7 @@ void Scene::render()
 
   glFlush(); 
 }
-void Scene::render_ui()
-{
-  ImGui::Begin("Debug");
-  debug_show();
-  ImGui::End();
-  for (auto objects : gameObjects)
-  {
-    for (auto component : objects->get_components())
-    {
-      IUIRenderable *UIrenderable = dynamic_cast<IUIRenderable*>(component.get());
-      if (UIrenderable)
-        UIrenderable->ui_render();
-    }
-  }
-  ImGui::Begin("FPS");
-  ImGui::Text("%.1f", Time::fps());
-  ImGui::End();
-}
+
 
 void Scene::exit()
 { 

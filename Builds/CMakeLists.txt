@@ -4,7 +4,11 @@ set(PROJECT_NAME ${PROJECT}-${BUILD_TYPE}.exe)
 project(${PROJECT_NAME})
 
 find_package(SDL2 REQUIRED)
+find_package(OpenGL REQUIRED)
+
 include_directories(${SDL2_INCLUDE_DIRS})
+include_directories(${OPENGL_INCLUDE_DIRS})
+
 
 set(PARENT_DIR ${CMAKE_SOURCE_DIR}/../)
 set(COMMON_ROOT ${PARENT_DIR}/Common/Sources)
@@ -35,7 +39,7 @@ file(GLOB_RECURSE PROJECT_C_SOURCES RELATIVE ${CMAKE_SOURCE_DIR} "${PROJECT_ROOT
 
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES} ${COMMON_SOURCES} ${COMMON_C_SOURCES} ${PROJECT_C_SOURCES})
 
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${CMAKE_DL_LIBS})
+target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${OPENGL_LIBRARIES} ${CMAKE_DL_LIBS})
 
 
 

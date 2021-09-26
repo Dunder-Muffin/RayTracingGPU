@@ -1,7 +1,6 @@
 #include "application.h"
 #include "Shader/shader_factory.h"
-#include "imgui/imgui_impl_opengl3.h"
-#include "imgui/imgui_impl_sdl.h"
+
 #include "config.h"
 
 Application::Application(string window_name, int width, int height, bool full_screen):
@@ -21,7 +20,7 @@ bool Application::sdl_event_handler()
   bool running = true;
   while (SDL_PollEvent(&event))
   {
-    ImGui_ImplSDL2_ProcessEvent(&event);
+    
     switch(event.type){
       case SDL_QUIT: running = false; break;
       
@@ -54,10 +53,7 @@ void Application::main_loop()
     {
       scene.update();
       scene.render();
-      context.start_imgui();
-      scene.render_ui();
-      ImGui::Render();
-      ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
       context.swap_buffer();
     }
   }
@@ -65,9 +61,7 @@ void Application::main_loop()
 void Application::exit()
 {
   scene.exit();
-  ImGui_ImplOpenGL3_Shutdown();
-  ImGui_ImplSDL2_Shutdown();
-  ImGui::DestroyContext();
+
   SDL_Quit();
 }
 string project_resources_path(const string &path)

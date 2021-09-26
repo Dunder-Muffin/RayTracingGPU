@@ -1,6 +1,4 @@
 #include "context.h"
-#include "imgui/imgui_impl_opengl3.h"
-#include "imgui/imgui_impl_sdl.h"
 
 Context::Context(string window_name, int width, int height, bool full_screen):
   width(width), height(height)
@@ -36,20 +34,9 @@ Context::Context(string window_name, int width, int height, bool full_screen):
   {
     throw std::runtime_error {"Glad error"};
   }
-  IMGUI_CHECKVERSION();
-  ImGui::CreateContext();
-  ImGuiIO& io = ImGui::GetIO(); (void)io;
-  ImGui::StyleColorsDark();
 
-  ImGui_ImplSDL2_InitForOpenGL(window, gl_context);
-  ImGui_ImplOpenGL3_Init(glsl_version);
 }
-void Context::start_imgui()
-{
-  ImGui_ImplOpenGL3_NewFrame();
-  ImGui_ImplSDL2_NewFrame(window);
-  ImGui::NewFrame();
-}
+
 void Context::swap_buffer()
 {
   SDL_GL_SwapWindow(window);
