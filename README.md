@@ -6,7 +6,6 @@
 - Dodecahedron created from planes, no hard-coded coords.
 - Perlin noise calculated in computer shader for fire simulation
 - material modeling by combining transparency, reflection, refraction and color.
-- 
 
 ## Install depedencies:
 
@@ -17,7 +16,7 @@
 `sudo apt-get install libsdl2-dev`
 
 
-# Run and build release:!
+# Run and build release:
 
 
 `./build_script.sh RayTracing rel`
