@@ -38,6 +38,6 @@ or
 
 `./run_script.sh RayTracing dev`
 
-# Фccelerated Gif to show combustion:
+# Accelerated Gif to show slow combustion:
 
 ![Ray tracing gif](Screenshots/ezgif.com-gif-maker.gif)
