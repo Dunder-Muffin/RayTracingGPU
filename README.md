@@ -8,6 +8,7 @@
 - material modeling by combining transparency, reflection, refraction and color.
 - ambient light reflected from active cubemap
 - full inner reflection
+- fireball burns in real time like gas movement on the surface of a star  
 
 ## Install depedencies:
 
@@ -36,3 +37,7 @@ or
 `./build_script.sh RayTracing dev`
 
 `./run_script.sh RayTracing dev`
+
+# Фccelerated Gif to show combustion:
+
+![Ray tracing gif](Screenshots/ezgif.com-gif-maker.gif)
