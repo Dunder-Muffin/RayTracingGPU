@@ -10,7 +10,7 @@
 - full inner reflection
 - fireball burns in real time like gas movement on the surface of a star  
 
-# Accelerated Gif to show slow combustion:
+### Accelerated Gif to show slow combustion:
 ![Ray tracing gif](Screenshots/ezgif.com-gif-maker.gif)
 
 ## Install depedencies:
