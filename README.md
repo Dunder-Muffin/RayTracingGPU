@@ -6,6 +6,8 @@
 - Dodecahedron created from planes, no hard-coded coords.
 - Perlin noise calculated in computer shader for fire simulation
 - material modeling by combining transparency, reflection, refraction and color.
+- ambient light reflected from active cubemap
+- full inner reflection
 
 ## Install depedencies:
 
